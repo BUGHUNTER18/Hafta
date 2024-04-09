@@ -65,3 +65,4 @@ def create_app(config_class=Config):
             db.session.add(Role(name='ADMIN'))
             db.session.commit()
     return app
+#did it
